@@ -8,8 +8,8 @@ export default class About extends Component {
 		this.el.classList.add('container', 'about');
 		this.el.innerHTML = /* html */ `
       <div
-       style="background-image: url(${photo});"
-       class="photo">
+        style="background-image: url(${photo});"
+        class="photo">
       </div>
       <p class="name">${name}</p>
       <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=${email}" target="_blank">${email}</a></p>
